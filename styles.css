@@ -195,10 +195,12 @@ margin: 20px;
 .How-it-works-wrapper{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 10px;
-   margin: 10px;
-   position: absolute;
-   left: 25%;
+    gap: 5px;
+   margin:20px;
+   margin-bottom: 100px;
+   padding: 10px;
+   position: relative;
+   left: 20%;
 }
 
 
@@ -211,20 +213,28 @@ margin: 20px;
 
 .how-it-works-header{
     font-family: 'Roboto', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
 }
 
-
+ 
 .new-wrapper{
-    display: block;
+    display: grid;
+    gap: 50px;
     position: absolute;
-    left: 50%;
-    top: 165px;
+    left: 45%;
+    top: 145px;
+    margin: 5px;
 }
 
 .first-work{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+}
+.vertical-line{
+    border-left: solid 2px #222227;
+    height: 100px;
+    position: relative;
+    left: 10px;
 }
 
 .create-free-accounts{
@@ -236,5 +246,267 @@ margin: 20px;
     font-family: 'Roboto', sans-serif;
     color:grey;
     width: 70%;
+}
+.how-it-works-button{
+    padding: 20px;
+    width: 12%;
+    background-color: #FF3131;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 80%;
+}
+.how-it-works-button:hover{
+    cursor: pointer;
+    background-color:#f07070 ;
+}
+
+.image-and-content-grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    margin-bottom: 100px;
+}
+.first-content-wrapper{
+   
+    width: 100%;
+    height: 65.5vh;
+    padding: 30px;
+}
+
+.first-content-first-text{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    width: 95%;
+    text-align: center;
+    color: var(--black-75, rgba(34, 34, 39, 0.75));
+}
+.first-content-second-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: var(--black-50, rgba(34, 34, 39, 0.50));
+    text-align: center;
+    width: 60%;
+    position: relative;
+    left: 80px;
+    margin-bottom: 100px;
+}
+
+.first-content-button{
+    padding: 20px;
+    width: 50%;
+    background-color: #FF3131;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    left: 80px;
+    top: 150px;
+}
+.first-content-button:hover{
+    cursor: pointer;
+    background-color:#f07070 ;
+}
+.first-grid-image{
+    width:32vw;
+    height: 65vh;
+    object-fit: cover;
+}
+
+.Why-kings-app-wrapper{
+    margin-bottom: 200px;
+}
+#why-kings-app-header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 5px;
+    margin-bottom: 100px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    left:-2%;
+}
+
+.why-kings-app-content-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+}
+
+.first-text-container{
+width: 60%;
+padding: 10px;
+margin: 5px;
+object-fit: cover;
+}
+.why-kings-app-text-header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color:#222227 ;
+}
+
+.why-kings-app-text{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color:#222227BF;
+}
+.why-kings-app-image{
+    height: 100vh;
+    margin-right:50px;
+}
+.second-text-container{
+    position: relative;
+    top: -60px;
+    left: 30%;
+}
+
+.about-us-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+.about-us-image{
+    width: 25vw;
+    height: 45vh;
+    border-radius:10px ;
+}
+
+.about-us-content-wrapper{
+    
+    padding: 10px;
+    margin: 5px;
+    width: 50%;
+}
+
+.about-us-header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222227;
+}
+.about-us-content-header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #222227;
+    font-weight: 300;
+}
+
+
+.about-us-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: grey;
+}
+.about-us-button{
+    padding: 20px;
+    width: 30%;
+    background-color: #AEEE2E;
+    color: #222227BF;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.about-us-button:hover{
+    cursor: pointer;
+    background-color:#8ac90d ;
+}
+.our-satisfied-customers-wrapper{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.our-satisfied-customers-header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222227;
+    text-align: center;
+}
+
+.our-satisfied-customers-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+    
+}
+#new-div{
+    margin-bottom: 10px;
+}
+
+.download-kings-app-wrapper{
+    
+    display:flex;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.download-kings-app-content-wrapper{
+    
+    width: 60%;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 100px;
+}
+.download-kings-app-header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    color: #222227;
+}
+.download-kings-app-button{
+    padding: 20px;
+    width: 12%;
+    background-color: #FF3131;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    position: absolute;
+
+}
+.download-kings-app-button:hover{
+    cursor: pointer;
+    background-color:#f07070 ;
+}
+
+.download-kings-app-image{
+    width: 50%;
+}
+
+.footer{
+    background-color: #C30015;
+    padding: 30px;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+
+.footer-text{
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
 }
